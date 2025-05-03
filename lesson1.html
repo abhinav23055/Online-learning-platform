@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lesson 1</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Lesson 1: HTML Basics</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/pQN-pnXPaVg" frameborder="0" allowfullscreen></iframe>
+
+    <h2>Quiz</h2>
+    <form id="quizForm">
+      <label>1. What does HTML stand for?</label>
+      <label><input type="radio" name="q1" value="a" /> Hyper Text Markup Language</label>
+      <label><input type="radio" name="q1" value="b" /> Home Tool Markup Language</label>
+      <label><input type="radio" name="q1" value="c" /> Hyperlinks and Text Markup Language</label>
+      <br />
+      <label> 2. What is the correct syntax to write an HTML comment?</label>
+      <label><input type="radio" name="q2" value="a" /> &lt;!--comment--&gt; </label>
+      <label><input type="radio" name="q2" value="b" /> //comment </label>
+      <label><input type="radio" name="q2" value="c" /> #comment </label>
+      <br />
+      <label> 3. What tag is used to render an image on a webpage?</label>
+      <label><input type="radio" name="q3" value="a" /> img </label>
+      <label><input type="radio" name="q3" value="b" /> src </label>
+      <label><input type="radio" name="q3" value="c" /> image </label>
+      <br />
+      <label> 4. Which HTML element is used to define description data?</label>
+      <label><input type="radio" name="q4" value="a" /> id </label>
+      <label><input type="radio" name="q4" value="b" /> class </label>
+      <label><input type="radio" name="q4" value="c" /> type </label>
+      <br />
+      <label> 5. Which HTML tag is called the root element of an HTML document?</label>
+      <label><input type="radio" name="q5" value="a" /> < body ></label>
+      <label><input type="radio" name="q5" value="b" /> < html > </label>
+      <label><input type="radio" name="q5" value="c" /> < title > </label>
+      <br />
+      <button type="button" onclick="checkquizanswers('q' , ['a' ,'a' ,'a' ,'a' ,'b'])">Submit</button>
+    </form>
+    <p id="result"></p>
+  </div>
+  <script src="script1.js"></script>
+</body>
+</html>
