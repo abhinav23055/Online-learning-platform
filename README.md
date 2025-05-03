@@ -1,5 +1,16 @@
 # Online-learning-platform
 
+*COMPANY*: CODTECH IT SOLUTIONS
+
+*NAME*: ABHINAV GUPTA
+
+*Intern ID*: CT06DL678
+
+*DOMAIN*: WEB DEVELOPMENT
+
+*DURATION*: SIX WEEKS
+
+*MENTOR*: NEELA SANTOSH KUMAR
 
 Welcome to the **Online Learning Platform**, a beginner-friendly educational web app developed using HTML, CSS, and JavaScript. This platform is designed to provide learners—especially newcomers to web development—with a clean, responsive, and interactive space to understand the fundamentals of front-end technologies.
 
